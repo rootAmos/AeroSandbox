@@ -1,0 +1,5 @@
+[33m252f7657[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m Add solar seaplane optimization wrapper and Bayesian optimization tools
+[33m89ee34ad[m Update README.md
+[33mf290df90[m version increment
+[33m566ded6d[m docs
+[33m85bd1088[m docs and extending truncate_stacklevel to outer callers
