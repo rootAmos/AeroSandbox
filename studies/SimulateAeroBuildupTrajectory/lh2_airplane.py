@@ -298,7 +298,7 @@ fuse = asb.Fuselage(
 )
 
 ### Wing
-wing_airfoil = asb.Airfoil("b737c")
+wing_airfoil = asb.Airfoil("b737b")
 
 wing_span = opti.variable(
     init_guess=214 * u.foot,

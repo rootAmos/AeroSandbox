@@ -402,7 +402,6 @@ mass_props['wing_center'] = asb.mass_properties_from_radius_of_gyration(
 mass_props['wing_tips'] = asb.mass_properties_from_radius_of_gyration(
     mass=mass_wing * (1 - wing_y_break_fraction),
     x_cg=0,  # quarter-chord,
-    radius_of_gyration_x=(1 + wing_y_break_fraction) / 2 * (wing_span / 2),
     radius_of_gyration_z=(1 + wing_y_break_fraction) / 2 * (wing_span / 2),
 )
 mass_props['h_stab'] = asb.mass_properties_from_radius_of_gyration(

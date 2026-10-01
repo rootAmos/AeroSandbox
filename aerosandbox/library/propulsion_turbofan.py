@@ -204,3 +204,6 @@ if __name__ == "__main__":
         bypass_ratio=5.95,
         diameter_fan=1.73,
     )  # real mass: (2139 to 2200 kg bare, ~3400 kg installed)
+
+    fan_max_thrust = thrust_turbofan(mass_cfm56_2)
+    print(fan_max_thrust)
